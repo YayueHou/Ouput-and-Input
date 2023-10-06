@@ -34,10 +34,16 @@ The coarse-grained sparsity means set several neurons to zero as well as the sub
     5. *Uncompressed Offset Pair*: Use multiple bits to represent the position of the start and end position of a series of zeros.
 
 ### How to avoid zeros in accelerator?
-- *Gating and Skipping*, Only "ignore" zeros values is not enough. The operation on ineffectual operands should also be avoided. There are two main methods:
+- *Gating and Skipping*, Only "ignore" zeros values is not enough. The operation on ineffectual operands should also be avoided. According to Yannan Nellie Wu's theory(*Yannan Nellie Wu, 2022, section 3*), There are two main methods:
     1. Gateing IneffOps
         1. Leader-follower intersection: Only check one operand. If the operand is zero, then keep the MAC idle. This may not detect all the ineffectual operations.
         2. Double-sided intersection: Detect both two operands. Either of them being zero could make the MAC stay idle. This could detect all the ineffectual operation, but may cause additional hardware overhead.
         - However, though the MAC is idle when encountering ineffectual, the caculation time is same as dense matrix. It could only reduce the power consumption.
     2. Skipping IneffOps 
         - The Skipping method totally skip the operation, when a ineffectual operand is detected, but not only stay idle. This method could also reduce the execute time.
+
+
+
+
+# References
+1. Y. N. Wu, P. -A. Tsai, A. Parashar, V. Sze and J. S. Emer, "Sparseloop: An Analytical, Energy-Focused Design Space Exploration Methodology for Sparse Tensor Accelerators," 2021 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS), Stony Brook, NY, USA, 2021, pp. 232-234, doi: 10.1109/ISPASS51385.2021.00043.
