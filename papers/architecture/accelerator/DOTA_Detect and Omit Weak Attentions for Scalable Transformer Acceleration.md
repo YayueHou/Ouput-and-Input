@@ -11,10 +11,10 @@
 ### Key idea: 
 - Weak attention detection
     1. Use the linear transformation to get lower-rank matrix than the original Q, K, V. 
-    $$ Q, K= XP\tilde{W_Q}, XP\tilde{W_K} \\
+  $$Q, K= XP\tilde{W_Q}, XP\tilde{W_K} \\
         P\in \sqrt{\frac{3}{k}} \{ -1,0,1\}^{d\times k}
      $$
-    2. Use the $ \tilde{QK^K} $ to detect weak attention. The output $ QK^T $ and $ \tilde{QK^K} $ would have the same shape. So the mask of $ \tilde{QK^K} $ can also be used in  $ QK^K $ directly.
+    2. Use the $\tilde{QK^K}$ to detect weak attention. The output $QK^T$ and $\tilde{QK^K}$ would have the same shape. So the mask of $\tilde{QK^K}$ can also be used in  $QK^K$ directly.
     3. Use mean squared error to optimize low-rank transformation parameters. 
 - DOTA
     - Reconfigurable Matrix Multiplication Unit
