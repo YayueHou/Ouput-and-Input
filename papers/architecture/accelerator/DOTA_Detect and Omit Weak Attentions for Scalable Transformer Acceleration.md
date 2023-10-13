@@ -3,7 +3,7 @@
 * Authors: Zheng Qu, Liu Liu
 * Affiliations: UCSB 
 * Publication Venue: ASPLOS 2022
-* Link: []()
+* Link: [https://dl.acm.org/doi/abs/10.1145/3503222.3507738](https://dl.acm.org/doi/abs/10.1145/3503222.3507738)
 ## Summary: 
 ### Problem:
 - Transformer need unique strong connection detection methods for its attention matrix.
