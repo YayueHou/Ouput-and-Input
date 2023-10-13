@@ -1,8 +1,8 @@
-# [0xx][transformer accelerator]
+# [0xx][transformer accelerator] Energon: Toward Efficient Acceleration of Transformers Using Dynamic Sparse Attention
 ## Overview
-* Authors:
-* Affiliations: 
-* Publication Venue: 
+* Authors: Zhe Zhou, Junlin Liu, Zhenyu Gu
+* Affiliations: Peking University
+* Publication Venue: TCAD 2023
 * Link: [https://arxiv.org/abs/2110.09310](https://arxiv.org/abs/2110.09310)
 ## Summary: 
 ### Problem:
