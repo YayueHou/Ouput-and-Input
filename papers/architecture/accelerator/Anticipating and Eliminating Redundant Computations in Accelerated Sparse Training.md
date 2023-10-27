@@ -1,9 +1,9 @@
 # [0xx][Training Accelerator]Anticipating and Eliminating Redundant Computations in Accelerated Sparse Training
 ## Overview
-* Authors:
-* Affiliations: 
-* Publication Venue: 
-* Link: []()
+* Authors: Jonathan S. Lew, Yunpeng Liu, Tor M. Aamodt
+* Affiliations: UBC
+* Publication Venue: ISCA 2022
+* Link: [https://doi.org/10.1145/3470496.3527404](https://doi.org/10.1145/3470496.3527404)
 ## Summary: 
 ### Problem:
 - SOTA sparse training focus on exploiting sparsity on only one input to the convolution.
