@@ -18,8 +18,7 @@
 - Software
     - First quantize Q and K to 4-bit and compute low-bit $\hat{S}$
         - Use symmetric linear quantization as quantization operator.
-        - $$
-    - Extract implicit sparsity from $\hat{S} = softmax(\mathbb{Q}^(-1)(\mathbb{Q}(Q)\mathbb{Q}(K)^T)\sqrt{d})$ using a threshold T and output a bitmap M.
+    - Extract implicit sparsity from $\hat{S} = softmax(\mathbb{Q}^{-1}(\mathbb{Q}(Q)\mathbb{Q}(K)^T)\sqrt{d})$ using a threshold T and output a bitmap M.
 - Compression
     - Partition the M into sub-matrix.
     - Pack by skipping zero only rows.
