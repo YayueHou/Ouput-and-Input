@@ -25,7 +25,9 @@
 - ANT
   - The RCP appears when the kerna slide exceeds the boundaries of image. (terminology: kernal = weight, image = activition) 
   - Use indices relationship between output, image and kernal to detect the invalid product results.
-  ![](./Figures/ANT_RCP.png)
+  
+![](./Figures/ANT_RCP.png)
+
   - Modeling the efficiency of Cartesian Products by  $\frac{H_{out}\times W_{out}}{H\times W_{out}}$
   - Because gradients have larger size, there are more ineffectual slides when doing Gradient * Activition
   - However, the ANT cannot ideally skip all the RCPs.
