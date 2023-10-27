@@ -1,9 +1,9 @@
-# [0xx][]
+# [0xx][Transformer Acceleration] Sanger: A Co-Design Framework for Enabling Sparse Attention using Reconfigurable Architecture
 ## Overview
-* Authors:
-* Affiliations: 
-* Publication Venue: 
-* Link: []()
+* Authors: Liqiang Lu, Yicheng Jin, Yun Liang
+* Affiliations: Peking University
+* Publication Venue: 2021 MICRO
+* Link: [https://doi.org/10.1145/3466752.3480125](https://doi.org/10.1145/3466752.3480125)
 ## Summary: 
 ### Problem:
 - Algorithm
