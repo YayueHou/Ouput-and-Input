@@ -10,6 +10,7 @@
   - In ML, after pruning and activation funtion, the matrix will become sparse.
 - In previous research, people proposed several methods to optimize MatMul
   - For sparse MatMul, there are three kind of dataflows which is most applied.
+
 ![](./Figures/3GeMMdataflow.png)
   - 4 differences
     - in/out Reuse
@@ -24,6 +25,7 @@
 - Window-based adaptive dataflow(WA)
   - split whole matrix into sub-blocks. Apply row-wise dataflow inter 
   - Fetch a 2x2 window from CSR arrays of Matric A each time. Fetch coresspongding value arrays from B in CSR format. This time, arrays in B (b2)could be reused.
+
 ![](./Figures/spadadataflow.png) 
 
 - SPADA Hardware architecture
@@ -41,6 +43,7 @@
 - Window shape adaption
   + The reuse pattern could be determined by the distribution overlap of column indices. The distribution of matric whithin windows are similiar.
   + Within a local matrix region, use the profiling performance results on the first few rows to determine the optimized window shape for the following rows
+
 ![](./Figures/predictdistribution.png)
 
 
