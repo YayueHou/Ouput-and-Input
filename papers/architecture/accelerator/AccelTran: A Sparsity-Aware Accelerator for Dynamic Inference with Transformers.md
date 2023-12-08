@@ -19,7 +19,8 @@
     4. both activation and weight has bitmask and use two input bit mask generate output bit mask and fetch data according to the output bit mask.
 - **dataflow**:
     1. Test various dataflow to obtain the best one in preformance.
-    ![](./Figures/acceltran.png)
+
+![](./Figures/acceltran.png)
 
 - Also use 3D RRAM
 
