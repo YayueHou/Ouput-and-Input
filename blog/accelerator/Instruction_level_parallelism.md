@@ -4,9 +4,9 @@ This section is a reading review based on [Computer Architecture, Sixth Edition:
 
 ## Pipeline
 Most processors applying pipeline to increase the efficiency of instruction execution by overlaping instructions. Each instruction in RISV-V ISA could be finished in 5 cycles. A complete execution is described as follow：
-1. Instruction fetch cycle.
+1. Instruction fetch cycle. 取指
 PC is sent to memory and fetch the instruction. Update PC+=4.
-2. Instruction decode/register fetch cycle.
+2. Instruction decode/register fetch cycle. 指令译码/读寄存器
 
 
 ## References
