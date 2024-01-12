@@ -24,12 +24,19 @@
 		+ ASCEND: feature map size and structure mismatch limited the ultilization of computing resources.
 
 ### Key idea:
-- Use photonic connection between memory/buffer nad inter chiplet. Use eletronic NoC inner chiplet.
-- Dataflow
-	+ Four communication patterns are provided.
-		1. 
+- Reconfigurable communication pattern
+	+ Each communication pattern has different number of destination PE.
+	+ The number of channels and output pixels could be adjusted by change the communication pattern.
+![](./figures/hppip1.png)
+![](./figures/hppip2.png)
+- Use photonic connection between memory/buffer and inter chiplet. Use eletronic NoC inner chiplet.
+- pattern prediction model
+	- A clear correlation appears between parameter proportion and the optimal choice of communication pattern.
+	- regression model could be trained to predict the optimal parameters.
+
 
 ### Takeaways: 
-### Strengths: 
-### weaknesses: 
-### How can you do better:
+- Applying this method to structured sparsity to achieve different block size may be interesting.
+### Weakness:
+- The number of communication pattern is $log_2^(N)+1$. The increase of PE numbers will increase the complexity of the prediction model.
+
