@@ -1,4 +1,4 @@
-# [0xx][pattern pruning]
+# [0xx][pattern pruning]PP-Transformer: Enable Efficient Deployment of Transformers through Pattern Pruning
 ## Overview
 * Authors: Jialin Cao, Kun Wang
 * Affiliations: Fudan University
