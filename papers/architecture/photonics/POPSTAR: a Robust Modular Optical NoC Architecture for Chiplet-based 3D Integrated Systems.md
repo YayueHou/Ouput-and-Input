@@ -1,8 +1,8 @@
-# [0xx][]
+# [0xx][photonic interconnect] POPSTAR: a Robust Modular Optical NoC Architecture for Chiplet-based 3D Integrated Systems
 ## Overview
-* Authors:
-* Affiliations: 
-* Publication Venue: 
+* Authors: Yvain Thonnart, Ayse K Coskun
+* Affiliations: Boston University
+* Publication Venue: DATE 2020
 * Link: []()
 ## Summary: 
 ### Problem:
