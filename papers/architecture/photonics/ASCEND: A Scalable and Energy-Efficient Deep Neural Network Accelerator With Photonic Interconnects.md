@@ -14,7 +14,7 @@ inference and efficiently supports broadcast communication is necessary.
 1. Novel Photonic Network:
     1. Unit 2D PE Array Architecture: 2*2 PE arrays. ifmap broadcast along columns and weight broadcast along rows.
     2. Wavelength Allocation: 4 wavelength are used to broadcast weight and are one-off. 4 wavelength are used to broadcast ifmap and are reused for PE-GLB unicast. 
-   
+    3. intra-chiplet use four wavelength in 2 waveguide, and inter-chiplet use one wavelength in 2 waveguide.
 ### Takeaways: 
 ### Strengths: 
 ### weaknesses: 

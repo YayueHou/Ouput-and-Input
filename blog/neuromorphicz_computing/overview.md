@@ -1,4 +1,4 @@
-# N
+# Neuromorphic Computing
 ## Definition 
 - **Neuromorphic computer**: non-von Neumann computers whose structure and function are composed of neurons and synapses.
 
@@ -21,4 +21,5 @@
 ![](./figures/SNNandDNN.png)
 ![](./figures/DNNfunc.png)
 ![](./figures/SNNfunc.png)
+
 ## Neuromorphic algorithms and applications
