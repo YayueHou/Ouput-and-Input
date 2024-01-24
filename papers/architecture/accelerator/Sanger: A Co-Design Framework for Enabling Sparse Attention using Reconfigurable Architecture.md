@@ -1,4 +1,4 @@
-# [0xx][Transformer Acceleration] Sanger: A Co-Design Framework for Enabling Sparse Attention using Reconfigurable Architecture
+# [002][Transformer Acceleration] Sanger: A Co-Design Framework for Enabling Sparse Attention using Reconfigurable Architecture
 ## Overview
 * Authors: Liqiang Lu, Yicheng Jin, Yun Liang
 * Affiliations: Peking University
