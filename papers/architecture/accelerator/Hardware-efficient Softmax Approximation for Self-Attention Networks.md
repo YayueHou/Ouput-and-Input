@@ -25,6 +25,6 @@
 ### How can you do better:
 - The approximation without maximum normalization
 - $\sigma=\frac{e^{x_i}}{\Sigma_{j=1}^Ne^{x_j}} = \frac{2^{1.5x_i}}{\Sigma_{j_i}^N2^{1.5x_j}}$
-- $2^{1.5x_i}=2^{u+v}\approx (1+v)<<u$, $2^v\approx 1+v$
+- $2^{1.5x_i}=2^{u+v}\approx (1+v) << u$,  $2^v\approx 1+v$
 
 ### Comments
