@@ -1,4 +1,4 @@
-# [0xx][MatMul Accelerator]SPADE: A Flexible and Scalable Accelerator for SpMM and SDDMM
+# [003][MatMul Accelerator]SPADE: A Flexible and Scalable Accelerator for SpMM and SDDMM
 ## Overview
 * Authors: Gerasimos Gerogiannis, Josep Torrellas
 * Affiliations: UIUC
