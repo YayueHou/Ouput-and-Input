@@ -26,5 +26,8 @@
 - The approximation without maximum normalization
 - $\sigma=\frac{e^{x_i}}{\Sigma_{j=1}^Ne^{x_j}} = \frac{2^{1.5x_i}}{\Sigma_{j_i}^N2^{1.5x_j}}$
 - $2^{1.5x_i}=2^{u+v}\approx (1+v)<<u$, $2^v\approx 1+v$
+- $\sigma(z_i) = \frac{e^{z_i-z_{max}}}{\Sigma_{j=1}^Ne^{z_j-z_{max}}}$
+- $ \frac{2^{x_i}}{2^{x_1-max}+2^{x_2-max}+2^{x_3-max}}$
+- $ sum=2^{x_1-x_1}, sum$ 
 
 ### Comments
