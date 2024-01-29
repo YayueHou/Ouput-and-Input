@@ -1,4 +1,4 @@
-# [0xx][MatMul Accelerator] Spada: Accelerating Sparse Matrix Multiplication with Adaptive Dataflow
+# [001][MatMul Accelerator] Spada: Accelerating Sparse Matrix Multiplication with Adaptive Dataflow
 ## Overview
 * Authors: Zhiyao Li, Jiaxiang Li, Mingyu Gao
 * Affiliations: Tsinghua University
