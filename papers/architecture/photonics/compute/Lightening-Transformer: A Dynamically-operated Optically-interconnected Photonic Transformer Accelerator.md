@@ -24,16 +24,20 @@
 ### Key idea: 
 - DDot
     - Apply directional coupler, this device could convert two vector into :
-    ![](../figures/light-trans-1.png)
+![](../figures/light-trans-1.png)
     - Apply balanced photodetection, get the subtraction between two output photocurrent:
-    ![](../figures/light-trans-2.png)
-    ![](../figures/light-trans-3.png)
+![](../figures/light-trans-2.png)
     - The output signal has format of x*y.
+  
+![](../figures/light-trans-3.png)
+
     - By apply the MZM(Mach-Zehnder modulator) which output is $E_{out} = E_{in}cos\theta$, the output can range from [-1,1]
 - DPTC
     - Maximum intra-core operand sharing to reduce operand modulation cost.
-        1. First DEMUX WDM signal, send them into MZM with different $\theta$. Then MUX output of MZMs again to get a WDM signal which has several x value in one waveguide.
-        ![](../figures/light-trans-4.png)
+    - First DEMUX WDM signal, send them into MZM with different $\theta$. Then MUX output of MZMs again to get a WDM signal which has several x value in one waveguide.
+
+![](../figures/light-trans-4.png)
+
 - Evaluation part: analyse the WDM dispersion and optical encoding noise 
 
 ### Strengths: 
