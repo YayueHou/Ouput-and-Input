@@ -42,10 +42,12 @@
 - The analyse of inperfection elements is clear.
 - The simulator is open-source
 - Though no background in photonics, still good to read
+
 ### weaknesses: 
 - Can only be applied on OS 
 - This idea is already proposed early in 2022 nature.
 - The mathematical part of this work is mainly on proportional relationship. 
+
 ### How can you do better:
 - I'm thinking about whethner it is possible to build up a simulator especially for inperfection evaluation in photonic interconnect and computation. Though mathematical derivation is available, I'm thinking that whether there is other methods to be more near to realistic situation?
 
@@ -57,4 +59,5 @@
 - Architecture-Level Takeaways
     1. Combining photonic computing with photonic interconnect unleashes the power of optics.
     2. Offloading more computing to the analog domain relaxes the A/D conversion bottleneck
+    
 ### Comments
