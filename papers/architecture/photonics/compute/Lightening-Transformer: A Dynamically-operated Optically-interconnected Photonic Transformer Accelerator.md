@@ -25,12 +25,10 @@
 - DDot
     - Apply directional coupler, this device could convert two vector into :
 ![](../figures/light-trans-1.png)
+    - The photocurrent is proportional to the square intensities of WDM signal.
     - Apply balanced photodetection, get the subtraction between two output photocurrent:
-![](../figures/light-trans-2.png)
     - The output signal has format of x*y.
-  
 ![](../figures/light-trans-3.png)
-
     - By apply the MZM(Mach-Zehnder modulator) which output is $E_{out} = E_{in}cos\theta$, the output can range from [-1,1]
 - DPTC
     - Maximum intra-core operand sharing to reduce operand modulation cost.

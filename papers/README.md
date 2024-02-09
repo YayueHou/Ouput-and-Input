@@ -12,4 +12,18 @@ This a paper collection with brief summary for each.
 |-----|-----------|-------|--------------|
 |1    | 
 
+### Matrix Acceleration 
+| NO. | KEY WORDS | TITLE | KEY INSIGHTS |
+|-----|-----------|-------|--------------|
+|1    | 
+
+
+| NO. | KEY WORDS | TITLE | KEY INSIGHTS | 
+|-----|-----------|-------|--------------|
+|1    | Outer-Product, MatMul Accelerator | [OuterSPACE: An Outer Product based Sparse Matrix Multiplication Accelerator](https://tnm.engin.umich.edu/wp-content/uploads/sites/353/2018/10/2018.02.outerspace.pdf) | |
+
+
+| NO. | KEY WORDS | TITLE | KEY INSIGHTS |
+|-----|-----------|-------|--------------|
+|1    | 
 
