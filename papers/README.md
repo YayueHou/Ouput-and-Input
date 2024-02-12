@@ -12,7 +12,7 @@ This a paper collection with brief summary for each.
 |-----|-----------|-------|--------------|
 |1    | 
 
-### Matrix Acceleration 
+## Matrix Multiplication Acceleration 
 | NO. | KEY WORDS | TITLE | KEY INSIGHTS |
 |-----|-----------|-------|--------------|
 |1    | 
@@ -27,3 +27,8 @@ This a paper collection with brief summary for each.
 |-----|-----------|-------|--------------|
 |1    | 
 
+## Transformer Accelerator
+| NO. | KEY WORDS | TITLE | KEY INSIGHTS |
+|-----|-----------|-------|--------------|
+|1    | QKV generation sparsity, low-precision prediction | FACT: FFN-Attention Co-optimized Transformer Architecture
+with Eager Correlation Prediction | QKV generation is time/energy consuming |
