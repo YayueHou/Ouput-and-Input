@@ -30,5 +30,5 @@ This a paper collection with brief summary for each.
 ## Transformer Accelerator
 | NO. | KEY WORDS | TITLE | KEY INSIGHTS |
 |-----|-----------|-------|--------------|
-|1    | QKV generation sparsity, low-precision prediction | FACT: FFN-Attention Co-optimized Transformer Architecture
-with Eager Correlation Prediction | QKV generation is time/energy consuming |
+|1    | QKV generation sparsity, low-precision prediction | [FACT: FFN-Attention Co-optimized Transformer Architecture with Eager Correlation Prediction](https://dl.acm.org/doi/10.1145/3579371.3589057) | QKV generation is time/energy consuming | 
+
