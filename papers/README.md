@@ -2,10 +2,11 @@
 This a paper collection with brief summary for each.
 ## Photonic in AI
 
+### Photonic computing
 | NO. | KEY WORDS | TITLE | KEY INSIGHTS            |
 |-----|-----------|-------|-------------------------|
 |1    |           | Deep learning with coherent nanophotonic circuits | First to propose MZI do MatMul |
-
+|2    | Photonic neural network, on-chip photonics, Fourier optics | [ReFOCUS: Reusing Light for Efficient Fourier Optics-Based Photonic Neural Network Accelerator](https://doi.org/10.1145/3613424.3623798) |    |
 
 ### Photonic in neuramorphic
 | NO. | KEY WORDS | TITLE | KEY INSIGHTS |
