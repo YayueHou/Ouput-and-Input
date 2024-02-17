@@ -15,7 +15,9 @@ accelerator and beyond
     - The replicated light pass a spatial diffraction plane whose transmission matrix is W.
     - combine X direction beams and get final output vector along Y axis.
 - Mach-Zehnder interferometer(MZI)
+    - Based on rotation matrix or singular value decomposition.
 - Wavelength division multiplication(WDM)
+    - Apply Microring resonators. Light pass the MMRs is adjust by weight.
 
 
 ### Takeaways: 
