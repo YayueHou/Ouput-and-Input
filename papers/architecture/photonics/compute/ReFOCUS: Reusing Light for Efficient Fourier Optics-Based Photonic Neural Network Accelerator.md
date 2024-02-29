@@ -3,7 +3,7 @@
 * Authors: Shurui Li, Puneet Gupta
 * Affiliations: UCLA
 * Publication Venue: MICRO 2023
-* Link: []()
+* Link: [https://nanocad.ee.ucla.edu/wp-content/papercite-data/pdf/c125.pdf](https://nanocad.ee.ucla.edu/wp-content/papercite-data/pdf/c125.pdf)
 ## Summary: 
 ### Problem:
 - Free-space photonic neural network accelerator
