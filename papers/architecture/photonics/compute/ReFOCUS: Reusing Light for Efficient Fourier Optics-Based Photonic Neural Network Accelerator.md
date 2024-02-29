@@ -22,7 +22,9 @@
             - Challenges
                 - the lenses on-chip could be only 1D, which could not support the CNN usually in 2D convolution. This will affect the accuracy.
                 - The result of JTC is divided in to two convoluion part. Each calculation only pick up one of them to generate the result of computing. This causes redundency.
-                - The nonlinear part of JTC is implemented by MMR which has undesired overhead and 
+                - The nonlinear part of JTC is implemented by MMR which has undesired overhead and non-linear material is not mature enough.
+                - E-O O-E
+                -  
 ### Key idea: 
 ### Takeaways: 
 ### Strengths: 
