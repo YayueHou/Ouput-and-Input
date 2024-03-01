@@ -1,9 +1,9 @@
-# [0xx][]
+# [0xx][qkv generation sparsity] FACT: FFN-Attention Co-optimized Transformer Architecture with Eager Correlation Prediction
 ## Overview
-* Authors:
-* Affiliations: 
-* Publication Venue: 
-* Link: []()
+* Authors: Yubin Qin
+* Affiliations: Tsinghua University
+* Publication Venue: ISCA 2023
+* Link: [https://dl.acm.org/doi/abs/10.1145/3579371.3589057](https://dl.acm.org/doi/abs/10.1145/3579371.3589057)
 ## Summary: 
 ### Problem:
 - The QKV generation and FFN layer dominates the computation overhead instead of attention computation, especially in short token computation. Hence the paper argues, the optimization is helpful, however the generation of QKV and FFN is compulsory.
