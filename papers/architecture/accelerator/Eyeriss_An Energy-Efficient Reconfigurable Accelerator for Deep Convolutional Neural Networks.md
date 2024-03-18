@@ -1,8 +1,8 @@
-# [009][Accelerator] Eyeriss: An Energy-Efficient Reconfigurable Accelerator for Deep Convolutional Neural Networks
+# [009][dataflow] Eyeriss: An Energy-Efficient Reconfigurable Accelerator for Deep Convolutional Neural Networks
 - Authors: Yu-Hsin Chen, Tushar Krishna, Member, Joel S. Emer, Vivienne Sze
 - Affiliations: MIT
 - Publication Venue: IEEE JOURNAL OF SOLID-STATE CIRCUITS, VOL. 52, NO. 1, JANUARY 2017
-- Link: 10.1109/JSSC.2016.261635
+- Link: [10.1109/JSSC.2016.261635](https://ieeexplore.ieee.org/document/7738524)
 ## Summary: 
 ### Problem: 
 - From on-chip to off-chip/Interchip data movement (High energy efficiency/Large throughput)
