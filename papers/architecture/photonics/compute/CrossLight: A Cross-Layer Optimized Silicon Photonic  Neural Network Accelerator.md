@@ -1,9 +1,9 @@
 # [0xx][ONN][MRR] CrossLight: A Cross-Layer Optimized Silicon Photonic Neural Network Accelerator
 ## Overview
-* Authors:
-* Affiliations: 
-* Publication Venue: 
-* Link: []()
+* Authors: Sudeep Pasricha
+* Affiliations: Colorado State University
+* Publication Venue: DAC 2021
+* Link: [https://arxiv.org/abs/2102.06960](https://arxiv.org/abs/2102.06960)
 ## Summary: 
 ### Problem:
 - Fabrication process and thermel variation adversely affected the robustness of photonic accelerator.

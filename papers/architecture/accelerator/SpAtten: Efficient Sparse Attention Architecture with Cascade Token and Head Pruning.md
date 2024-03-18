@@ -1,12 +1,24 @@
 # [0xx][transformer accelerator][token pruning] SpAtten: Efficient Sparse Attention Architecture with Cascade Token and Head Pruning
 ## Overview
-* Authors:
-* Affiliations: 
-* Publication Venue: 
-* Link: []()
+* Authors: Hanrui Wang, Han Song
+* Affiliations: MIT
+* Publication Venue: HPCA 2021
+* Link: [https://hanlab.mit.edu/projects/spatten](https://hanlab.mit.edu/projects/spatten)
 ## Summary: 
 ### Problem:
+- calculation of transformer is slow on general purpose processor such as CPU and GPU.
+- most pruning methods are still for DNN
 ### Key idea: 
+- algorithm optimization
+    - cascade token pruning
+        - accumulate attention probabilities across multiple rounds of attention
+    - cascade head pruning
+        - evaluate the magnitude of the head’s outputs.
+    - progress quantization: The fewer token dominants, the smaller quatization error would be. First fetch MSB and determine whether LSB is needed.
+- design top k engines to select more efficient tokens and heads.
+- Archetecture
+    - Top key engine applys a quick select for the k largest value.
+    - Zero Eliminator
 ### Takeaways: 
 ### Strengths: 
 ### weaknesses: 
